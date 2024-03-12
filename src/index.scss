@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --primary-color:#38846D;
+    --dark-brown: #2F2926;
+    --body-color:#F3E4E1;
+    --white-color:#FFFFFF;
+    --orange-color:#E5674E;
+    --dashed-line-color: #00000062;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "PT Serif", serif;
+}
+
+body {} 
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size:32px;
+}
+
+h5 {
+    font-size: 23px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+    color: var(--white-color);
+    font-weight: 400;
+}
+
+p {
+    font-size: 12px;
+}
+
+
+

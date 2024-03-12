@@ -1,0 +1,30 @@
+.nav {
+    background-color: var(--dark-brown);
+    height: 100vh;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 235px;
+    left: 32px;
+
+    li {
+        margin: 1rem;
+    }
+
+    a {
+        color: #FFFFFF;
+        font-size: 32px;
+    }
+}
+
+.nav img {
+    position: relative;
+    max-width: 48px;
+    padding: 0.5rem;
+    top: 16px;
+    left: 16px;
+}

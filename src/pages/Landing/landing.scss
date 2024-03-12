@@ -1,0 +1,27 @@
+.landing {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+   
+    .header-img {
+        height: 100vh;
+        z-index: 1;
+        position: relative;       
+    }
+
+        .welcome-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            z-index: 2;  
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
+}
+
+
+

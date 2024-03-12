@@ -1,0 +1,36 @@
+.card-container {
+    display: flex;
+    position: relative;
+    
+    .card-container-items {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+
+        ::after {
+            content: '';
+            display: block;
+            height: 1px;
+            position: absolute;
+            left: 8rem;
+            right: 4rem;
+            top:50%;
+            border-bottom: 1px dashed var(--dashed-line-color);
+            z-index: -1;
+        }
+    }
+
+    .price-container{
+        display: flex;
+        align-items: center;
+        margin-top: -15px;
+        z-index: 1;
+    }
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 1;
+    }
+}
