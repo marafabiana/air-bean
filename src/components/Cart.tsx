@@ -52,3 +52,5 @@ const Cart = () => {
 };
 
 export default Cart;
+
+//**To change Modal to Overlay
