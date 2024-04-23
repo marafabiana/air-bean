@@ -6,7 +6,7 @@ import Footer from "../../components/Footer";
 
 const Menu = () => {
   return (
-    <div>
+    <div className="menu-container">
       <Cart />
       <Products />
       <Footer />

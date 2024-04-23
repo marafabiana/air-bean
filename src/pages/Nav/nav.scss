@@ -5,19 +5,23 @@
 
 .links {
     display: flex;
+    width: 80%;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 235px;
-    left: 32px;
+    top: 385px;
+    left: 10%;
+    
 
     li {
-        margin: 1rem;
+        margin: 2rem;
+        
     }
 
     a {
         color: #FFFFFF;
         font-size: 32px;
+        
     }
 }
 
