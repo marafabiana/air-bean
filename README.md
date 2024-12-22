@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+![AirBean](poster.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# AirBean
 
-Currently, two official plugins are available:
+Du ska bygga en webbapp där du kan beställa kaffe och få den levererad via drönare (drönare ingår ej i uppgiften).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Figmaskiss:** https://www.figma.com/file/UeUGVefSdgio0sRxPFccJI/AirBean-v.1.0?node-id=0%3A1
 
-## Expanding the ESLint configuration
+**APIDOCS:** https://airbean-api-xjlcn.ondigitalocean.app/api/docs/
+**API:** https://airbean-api-xjlcn.ondigitalocean.app/
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instruktioner
 
-- Configure the top-level `parserOptions` property like this:
+### Kravspecifikation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+**För att få Godkänt ska ni:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+* Gjort enligt Figma skissen
+* Är en single psge application (SPA) med react-router-dom
+* Använder sig av Zustand som global state
+* Gå att lägga till produkter i en varukorg
+* I varukorgen ändra antal/ta bort produkter
+* Kunna skicka sin order och få ett svar med en ETA och ordernummer
+
+**För att Väl Godkänt ska ni:**
+
+* Hämta alla produkter med fetch
+* Integrera API:et med SPAn
+* Lägga till en profilsida där du kan skapa konto/logga in (enbart namn och email)
+* Om man gör en beställning när man är inloggad ska ordern kopplas till den inloggade användaren
+* Det ska även finnas en orderhistorik-sida där den inloggade användarens ordrar listas
+
+**För att få stilpoäng ska ni:**
+* Göra applikationen säkrare genom att lägga till lösenord på användaren
+* Authentication ska ske med hjälp av JWT
+
